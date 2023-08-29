@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css" integrity="sha512-+mlclc5Q/eHs49oIOCxnnENudJWuNqX5AogCiqRBgKnpoplPzETg2fkgBFVC6WYUVxYYljuxPNG8RE7yBy1K+g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,400;0,700;1,300&family=Hind+Madurai:wght@300;700&family=Nunito+Sans:opsz,wght@6..12,200;6..12,400;6..12,700&display=swap" rel="stylesheet">
+
+    <script src="./js/hamburguer.js" defer></script>
+</head>
+<body>
+    <div class="cont-principal">
+        <header>
+            <div class="cont-img">
+                <img src="./img/Logo-fr.png" alt="Logo">
+            </div>
+            <nav>
+                <button class="hamburger hamburger--collapse" type="button">
+                    <span class="hamburger-box">
+                      <span class="hamburger-inner"></span>
+                    </span>
+                  </button>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobre-mi">Sobre mi</a></li>
+                    <li><a href="#portafolio">Portafolio</a></li>
+                    <li><a href="#info-contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="cont-inicio" id="inicio">
+                <h1>Fabian Restrepo</h1>
+                <p>Web developer</p>
+                <ul>
+                    <li><a href="https://es-la.facebook.com/leyder.otalora/" target="_blank"><img src="./icons/facebook.png" alt=""></a></li>
+                    <li><a href="https://www.linkedin.com/in/leyder-fabian-restrepo-otalora-637ba6286/" target="_blank"><img src="./icons/linkedin.png" alt=""></a></li>
+                    <li><a href="https://github.com/Reo08" target="_blank"><img src="./icons/github.png" alt=""></a></li>
+                </ul>
+            </section>
+            <section class="cont-sobreMi" id="sobre-mi">
+                <div class="cont-fotoMia">
+                    <div class="fotoMia">
+                        <img src="" alt="Foto_mia">
+                    </div>
+                </div>
+                <div class="sobreMi">
+                    <h2>Sobre mi</h2>
+                    <p>Soy un apasionado desarrollador web con habilidades que abarcan HTML, CSS, Javascript, React, Php, Laravel y MySql. Soy capaz de crear interfaces atractivas y funcionales que hacen que los usuarios tengan una experiencia satisfactoria.</p>
+                    <a href="#">Descargar CV</a>
+                </div>
+            </section>
+            <section class="cont-portafolio" id="portafolio">
+                <div class="info-portafolio">
+                    <div>
+                        <h2>Portafolio</h2>
+                        <p>He trabajado en proyectos personales, desde la creacion de paginas informativas hasta algo mas complejo como una plataforma web intercativa con manejo de sesiones, sistema de roles, diseño responsivo y el modelado de base de datos.</p>
+                        <a href="https://github.com/Reo08" target="_blank">Ver mas</a>
+                    </div>
+                </div>
+                <div class="cards">
+                    <a class="card" href="#">
+                        <figure>
+                            <img src="" alt="Card1">
+                            <figcaption>Nombre proyecto</figcaption>
+                        </figure>
+                    </a>
+                    <a class="card" href="#">
+                        <figure>
+                            <img src="" alt="Card1">
+                            <figcaption>Nombre proyecto</figcaption>
+                        </figure>
+                    </a>
+                    <a class="card" href="#">
+                        <figure>
+                            <img src="" alt="Card1">
+                            <figcaption>Nombre proyecto</figcaption>
+                        </figure>
+                    </a>
+                    <a class="card" href="#">
+                        <figure>
+                            <img src="" alt="Card1">
+                            <figcaption>Nombre proyecto</figcaption>
+                        </figure>
+                    </a>
+                    <a class="card" href="#">
+                        <figure>
+                            <img src="" alt="Card1">
+                            <figcaption>Nombre proyecto</figcaption>
+                        </figure>
+                    </a>
+                    <a class="card" href="#">
+                        <figure>
+                            <img src="" alt="Card1">
+                            <figcaption>Nombre proyecto</figcaption>
+                        </figure>
+                    </a>
+                </div>
+            </section>
+            <section class="cont-contacto" id="info-contacto">
+                <div class="contacto">
+                    <h2>Contactame</h2>
+                    <p>Si estas interesado en trabajar juntos en un proyecto no dudes en ponerte en contacto conmigo. <br>Celular: +57 3xx xxx xxxx</p>
+                </div>
+                <div class="form-contacto">
+                    <form action="">
+                        <label for="">Nombre</label>
+                        <input type="text">
+                        <label for="">Correo</label>
+                        <input type="email" name="email">
+                        <label for="">Mensaje</label>
+                        <textarea name="mensaje" id="" cols="30" rows="10"></textarea>
+                        <div>
+                            <button>Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div>
+                <a href="https://www.flaticon.es/iconos-gratis/facebook" title="facebook iconos">Facebook iconos creados por Stockio - Flaticon</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
