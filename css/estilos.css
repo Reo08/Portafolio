@@ -141,6 +141,16 @@ main h1, main h2, main p, main label {
     height: 390px;
     background-color: rgb(244, 146, 41);
 }
+.fotoMia div {
+    width: inherit;
+    height: inherit;
+    overflow: hidden;
+    transform: translate(-20px,-20px);
+    transition: transform .5s ease;
+}
+.fotoMia img {
+    width: 340px;
+}
 
 .sobreMi {
     padding-top: 55px;
@@ -478,6 +488,9 @@ footer a {
         width: 240px;
         height: 300px;
     }
+    .fotoMia div img {
+        width: 100%;
+    }
     .sobreMi {
         padding: 55px 25px 30px 39px;
     }
@@ -486,7 +499,7 @@ footer a {
     .cont-portafolio {
         flex-direction: column;
         padding-top: 26px;
-        height: 100vh;
+        height: 820px;
     }
     .info-portafolio {
         width: 79%;
@@ -516,7 +529,7 @@ footer a {
 
     
     .cont-contacto {
-        height: 100vh;
+        height: 739px;
         flex-direction: column;
     }
     .contacto {
